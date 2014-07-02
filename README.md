@@ -1,7 +1,7 @@
 magento-dalekjs
 ===============
 
-Frontend tests using the dalekjs framework in order to perform crossbrowser-tests.
+Magento Frontend test helper for the dalekjs framework in order to perform crossbrowser-tests.
 
 Test scenarios
 ==============
@@ -24,5 +24,10 @@ Known issues
 - completeness of the tests
 
 
+Current Reconstruction
+======================
 
+Currently the project gets rewired to become a nodejs module,
+so to make use of it you place this project into a ```node_modules``` directory above or besides your test directory.
+an example of usege can ge found here https://github.com/WizardsFugue/magento_common_example/tree/master/tests/dalekjs
 
